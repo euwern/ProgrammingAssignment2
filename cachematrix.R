@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 	}
 	get <- function() x
 	setSolve <- function(solveMatrix) sm <<- solveMatrix
-	getSolve <- function() m
+	getSolve <- function() sm
 	
 	#Exposing internal function to caller
 	list(set = set, get = get, 
